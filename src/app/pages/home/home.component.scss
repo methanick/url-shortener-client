@@ -1,5 +1,37 @@
+
+.home-page{
+    max-width: 720px;
+}
+.header-title{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    
+    .title{
+        font-weight: bold;
+        color: #3D5656;
+    }
+}
+
+.generate-short-url-panel{
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: #B5D5C5;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.short-url-history-panel{
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: #B5D5C5;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
 .input-group {
     max-width: 720px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.form-label{
+    color: #3D5656;
+    font-weight: bold;
+    font-size: 1em;
 }
